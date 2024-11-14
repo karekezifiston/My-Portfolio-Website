@@ -1,0 +1,318 @@
+.page_4{
+  padding-top:5rem;
+}
+  .title_3{
+    padding:0;
+    margin-bottom:1rem;
+ 
+}
+
+.about_me{
+  font-size:40px;
+  font-style:unset;
+  font-family:Arial, Helvetica, sans-serif;
+  width:13rem;
+}
+  
+  .get_to_know_2{
+    font-size:15px;
+    margin-left:0.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width:10rem;
+}
+.arrow-2{
+  margin-left:29rem;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  /*-----------------------------------------------------------------------------*/
+  
+  .section-one {
+    background-color: rgb(255, 250, 250);
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+  }
+  
+  .slider-container {
+    
+    background-color: rgba(255, 252, 252, 0.671);
+    width: 80%;
+    height: 450px;
+    margin: 0 auto;
+    cursor: grab;
+    /* border:solid;
+    border-radius:20px;
+    border-color: rgb(191, 191, 191); */
+  }
+  
+  
+  .card {
+    margin: 0 auto;
+    height: 450px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     border:none;
+    border-radius:20px; 
+    border-color: rgb(177, 178, 179); 
+  }
+  
+  
+  
+  /**-------------------------------------------------------------------------------------------------------------*/
+  
+  
+  
+  
+  
+  .section-two {
+    background-color: rgb(99, 149, 155);
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: yellow;
+   
+  }
+  
+  
+  
+  .slider-container-2 {
+    background-color: rgb(119, 128, 0);
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+    cursor: grab;
+    margin-top: 2%;
+    border-radius: 10px;
+    align-content: center;
+  }
+  
+  
+  
+  
+  .Trend-2 {
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    width: 100%;
+  }
+  
+  .all {
+    background-color: blue;
+    height: 97%;
+    width: 100%;
+  }
+  
+  
+  /* .card-2 {
+    margin: 0 auto;
+    height: 100% !important;
+    width: 95%;
+    background-color: rgb(141, 136, 151)2);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: blur(1.5px);
+    transition: background-color 0.7s ease-in-out, height 0.4s ease-in-out, width 0.4s ease-in-out;
+  }
+   */
+  
+  
+  
+  
+  .slick-prev, .slick-next {
+    color: rgb(0, 0, 0) !important;
+  }
+  
+  
+  .slick-next {
+    right: -45px !important;
+  }
+  
+  .slick-prev {
+    left: -45px !important;
+  }
+  .slick-prev::before{
+    content:'\2039' !important;
+    /* background-color:black; */
+    padding:10px;
+    color:rgb(0, 0, 0) !important;
+    font-size:70px !important;
+}
+.slick-next::before{
+    content:'\203A'!important;
+    /* background-color:black; */
+    padding:10px;
+    color:rgb(0, 0, 0) !important;
+    font-size:70px !important;
+    
+
+}
+  
+  /* Add this CSS to your App.css file */
+  
+  .slick-current .card-2 {
+    background-color: rgb(121, 101, 175);
+    filter: blur(0px);
+  }
+  
+  /**-------------------------------------------------------------------------------------------------------------*/
+  
+  .section-three {
+    background-color: rgb(99, 155, 107);
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: yellow;gap: 23rem;
+
+  }
+  
+  
+  
+  .slider-container-3 {
+    background-color: rgb(5, 73, 58);
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+    cursor: grab;
+    margin-top: 2%;
+    border-radius: 10px;
+    align-content: center;
+  }
+  
+  .card-3 {
+    margin: 0 auto;
+    height: 320px;
+    width: 95%;
+    background-color: rgb(182, 167, 133);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.7s ease-in-out, height 0.4s ease-in-out, width 0.4s ease-in-out;
+  }
+  
+  /**-------------------------------------------------------------------------------------------------------------*/
+  .section-four {
+    background-color: rgba(121, 99, 155, 0.486);
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: yellow;
+  }
+  
+  
+  
+  .slider-container-4 {
+    background-color: rgb(5, 73, 58);
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+    cursor: grab;
+    margin-top: 2%;
+    border-radius: 10px;
+    align-content: center;
+  }
+  
+  .card-4 {
+    margin: 0 auto;
+    height: 320px;
+    width: 95%;
+    background-color: rgb(182, 167, 133);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.7s ease-in-out, height 0.4s ease-in-out, width 0.4s ease-in-out;
+  }
+   .first_border{
+    padding:2rem;
+    width:100%;
+    height:auto;
+    margin-top:30px;
+    
+
+}
+  .img_one{
+    border:solid 1px silver;
+    width:100%;
+    height:60%;
+    object-fit:contain;
+}
+.project_text{
+  font-size:20px;
+  text-align: center;
+  text-wrap:nowrap;
+  margin-top:10px;
+  color: rgba(0, 0, 0, 0.94);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.two_links{
+  /* margin-left:1rem; */
+  text-align: center;
+  
+
+}
+.github{
+  color: rgba(0, 0, 0, 0.712);
+  font-weight: bold;
+  font-size:13px;
+  margin-top:1rem;
+  padding:0.2rem;
+  padding-left:1rem;
+  padding-right: 1rem;
+  
+}
+.livedemo{
+  color: rgba(0, 0, 0, 0.712);
+  font-weight: bold;
+  font-size:13px;
+  margin-left:5px;
+  margin-top:1rem; 
+  padding:0.2rem;
+  padding-left:1rem;
+  padding-right: 1rem;
+}
+.github:hover,.livedemo:hover{
+  background-color:black;
+  color:rgba(255, 255, 255, 0.79);
+} 
+.arrow_icon{
+  width:2rem;
+  height:2rem;
+  margin-left:55rem;
+  cursor: pointer;
+}
