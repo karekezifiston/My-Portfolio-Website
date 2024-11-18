@@ -3,6 +3,9 @@ import './Page5.css';
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import location from '../assets/location.png'
+import email from '../assets/email.png'
+import call from '../assets/call.png'
+import send from '../assets/send.png'
 
 const Footer = () => {
   const [formData, setFormData] = useState({
@@ -38,33 +41,29 @@ const Footer = () => {
      };
   return (
     <div className='footer' id='contact'>
+      {/* <div className='title'>
+        <h1>CONTACT</h1>
+      </div> */}
       <div className='footers'>
       <div className='left-footer'>
         <h1 className='let'>let's <br />talk <br />here</h1>
          <div className='talk'>
          <form onSubmit={handleSubmit}>
          <div className="first">
-         <input type="text" name="userName"id='userName' value={formData.userName} placeholder="Your Name"onChange={handleChange} required />
-         <input type="email" name="userEmail"id='userEmail' value={formData.userEmail} placeholder="Your Email"onChange={handleChange} required />
+         <input type="text" name="userName"id='userName' value={formData.userName} placeholder="NAME"onChange={handleChange} required />
+         <input type="email" name="userEmail"id='userEmail' value={formData.userEmail} placeholder="EMAIL"onChange={handleChange} required />
          </div>
          <div className="text-area">
-         <textarea name="userMessage"id='userMessage' value={formData.userMessage} rows="6" placeholder="Message"onChange={handleChange}></textarea>
+         <textarea name="userMessage"id='userMessage' value={formData.userMessage} rows="6" placeholder="Text"onChange={handleChange}></textarea>
          </div>
-         <button type="submit" className="submit">Send Message</button>
+         <button type="submit" className="submit">Send <img src={send}width={20} alt="" /></button>
          </form>
          </div>
       </div>
       <div className='right-footer'>
-      <div className='second-way'>
-          <img src={location}width={20} alt="" />
-          <div className='second'>
-            <p>KN 27 St, Nyarugenge,</p>
-            <p>Kigali, Rwanda</p>
-          </div>
-        </div>
       <div className='third-way'>
-          <a href="">karekezifiston30@gmail.com</a>
-          <a href="">+250 780 377 645</a>
+          <a href="https://mail.google.com/mail/karekezifiston@gmail.com"><img src={email}className='short-icon' alt="" />karekezifiston30@gmail.com</a>
+          <a href=""><img className='short-icon' src={call}  alt="" /> +250 780 377 645</a>
         </div>
       </div>
       </div>

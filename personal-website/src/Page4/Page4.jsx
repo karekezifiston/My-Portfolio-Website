@@ -4,27 +4,27 @@ import './Page4.css';
 const Page3 = () => {
 return(
     <section className="page_3" id="services">
-        <div className="title_2">
+        <div className="title">
         <h1 className="about_me"> Our Services</h1>
-        <p className="get_to_know_1">Explore More </p>
+        <p className="get_to_know">Explore More </p>
       </div>
       <div className="three-container">
           <div className="web-design">
             <img src="web-design.png"width={40}className="img-serv" alt="" />
             <h2 className="text-border">Web Design</h2>
-            <p className="text-p">Lorem ipsum dolor sit amet consectetur  adipisicing elit. Suscipit eos cum nisi  labore distinctio, rem quisquam natus  obcaecati iusto eligendi, architecto  pariatur earum placeat non. Dolores  id voluptatem ad at.</p>
+            <p className="text-p">One of Our services is about creating websites that look great and are easy to use. We can make your site unique, work on any device, and help attract more visitors.</p>
 
           </div>
           <div className="web-design">
             <img src="development.png"width={40}className="img-serv" alt="" />
-            <h2 className="text-border">Development</h2>
-            <p className="text-p">Lorem ipsum dolor sit amet consectetur  adipisicing elit. Suscipit eos cum nisi  labore distinctio, rem quisquam natus  obcaecati iusto eligendi, architecto  pariatur earum placeat non. Dolores  id voluptatem ad at.</p>
+            <h2 className="text-border">Web App Devt</h2>
+            <p className="text-p"> Also we create efficient, responsive apps that provide smooth user experiences, enhance functionality, and meet your specific business goals.</p>
 
           </div>
           <div className="web-design">
             <img src="app-design.png"width={40}className="img-serv" alt="" />
             <h2 className="text-border">App Design</h2>
-            <p className="text-p">Lorem ipsum dolor sit amet consectetur  adipisicing elit. Suscipit eos cum nisi  labore distinctio, rem quisquam natus  obcaecati iusto eligendi, architecto  pariatur earum placeat non. Dolores  id voluptatem ad at.</p>
+            <p className="text-p">We design user-friendly, engaging layouts that enhance the user experience, ensuring your app is both functional and enjoyable to use.</p>
 
           </div>
       </div>
