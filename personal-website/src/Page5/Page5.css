@@ -35,7 +35,7 @@
   padding-bottom:1rem;
 }
 .let{
-  color:rgb(255, 255, 255);
+  color:rgba(255, 255, 255, 0.401);
   font-size:40px;
   font-style: italic;
 }
@@ -174,7 +174,7 @@ form .submit:hover{
 }
 @media (max-width:576px) and (min-width:0px){
   .let {
-    color: rgb(255, 255, 255);
+    color:rgba(255, 255, 255, 0.401);
     font-size: 4vw;
     font-style: italic;
 }

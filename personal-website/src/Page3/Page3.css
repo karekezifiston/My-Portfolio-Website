@@ -17,6 +17,7 @@
 
 
 .div-1,.div-2,.div-3{
+  position: relative;
   /* padding-top:4rem; */
   display: flex;
   flex-direction: column;
@@ -29,20 +30,24 @@
   background-color: rgba(127, 125, 125, 0.085);
   
 }
-.project-img {
-  border-radius:10px;
-  width:360px;
-  height:170px;
-  object-fit:fill; /* Ensures the image covers the container without distortion */
-  object-position:center; /* Centers the image within the container */
+.project-img{
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+  width: 100%;
+  height:auto;
+  object-fit: fill;
+  object-position: center;
 }
 .project-img2{
-  border-radius:10px;
-  width:337px;
-  height:170px;
-  object-fit:fill; /* Ensures the image covers the container without distortion */
-  object-position:center; /* Centers the image within the container */
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+  width: 100%;
+  height:auto;
+  object-fit: fill;
+  object-position: center;
+  padding-bottom:19px;
 }
+
 
 .all-inform{
   display: flex;
@@ -59,7 +64,45 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width:80%;
+  width:95%;
+}
+.name-link{
+  text-decoration:none;
+  color:black;
+}
+.name-link:hover{
+  color:rgba(0, 0, 0, 0.862);
+}
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+  width: 37px;
+  height: 30px;
+}
+.img-link{
+  height:20px;
+  width:20px;
+}
+.tooltip-text {
+  position: absolute;
+  bottom: 100%; /* Position the tooltip above the image */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.999); /* Dark background for the tooltip */
+  color: #000000;
+  padding: 5px 10px;
+  border:solid 1px silver;
+  font-size: 14px;
+  border-radius: 10px;
+  white-space: nowrap; /* Prevent text wrapping */
+  opacity: 0; /* Initially hidden */
+  visibility: hidden; /* Hide the tooltip when not hovering */
+  transition: opacity 0.3s ease-in-out; /* Smooth fade-in effect */
+}
+
+.tooltip-container:hover .tooltip-text {
+  opacity: 1; /* Show the tooltip on hover */
+  visibility: visible; /* Make it visible */
 }
 .name-link h4{
   font-size:17px;
@@ -68,7 +111,7 @@
 .pr{
   width:300px;
   color:rgba(0, 0, 0, 0.623);
-  font-size:15px;
+  font-size:16px;
 }
 @media (max-width: 1180px) and (min-width:773px){
   .divs {
