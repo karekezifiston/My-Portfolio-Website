@@ -30,8 +30,8 @@ function Page3() {
             </p>
           </div>
         </div>
-        <div className="div-3">
-          <img src={food} className="project-img2"  alt="" />
+        <div className="div-2">
+          <img src={food} className="project-img"  alt="" />
           <div className="all-inform">
             <div className="name-link">
             <h4>Food Delivery</h4>
@@ -47,7 +47,7 @@ function Page3() {
         </div>
         <div className="div-3">
           <img src={ecommerce} className="project-img" alt="" />
-          <div className="all-inform">
+          <div className="all-inform1">
             <div className="name-link">
               <h4>E-Commerce</h4>
               <a href='https://e-commerce-web-r41q.onrender.com' className="tooltip-container">
