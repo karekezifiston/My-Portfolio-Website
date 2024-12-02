@@ -1,8 +1,6 @@
 import React,{useState} from "react";
 import './Header.css';
-
-
-
+import fiston from '../assets/fiston.png'
 
 const Header = () => {
   const [menu,setMenu] =useState("home");
@@ -46,7 +44,7 @@ const Header = () => {
         </div>
         <div className="h-container">
          
-        <h3 className="nav_logo">Fiston</h3>
+        <h3 className="nav_logo"><img src={fiston}width={130} alt="" /></h3>
   
           
         <div className="menu">
