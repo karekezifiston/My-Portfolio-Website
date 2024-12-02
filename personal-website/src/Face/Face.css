@@ -51,12 +51,16 @@
     width:150px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;       
 }
+.button_calor1 a{
+    text-decoration:none;
+    color: white;
+}
 
 .button>.button_calor1:hover{
-    background-color: rgba(171, 171, 171, 0.821);
+    background-color: rgba(24, 23, 23, 0.821);
     cursor:pointer;
     text-decoration: none;
-    transform:scale(1.1);
+    transform:scale(1);
 }
 .button>.button_calor2:hover{
     color:black;

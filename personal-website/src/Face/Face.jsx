@@ -11,8 +11,16 @@ const Face = () => {
         <h4 className="fiston">Fiston Karekezi</h4>
         <h3 className="full">Full stack Developer</h3>
         <div className="button">
-       <button className="button_calor1">View Resume</button>
-       {/* <button className="button_calor2 " >Contact Info</button> */}
+       <button className="button_calor1">
+       <a 
+              href="/Fiston_Resume.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="button_calor1"
+            >
+              View Resume
+            </a>
+       </button>
     </div>
 </div>
 <div className="brd">

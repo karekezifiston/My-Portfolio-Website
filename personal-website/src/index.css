@@ -39,29 +39,3 @@ body, html{
 }
 
 
-/* .button{
-  background-color:rgb(58, 114, 234);
-  border:none;
-  border-radius:5px;
-  padding:10px 20px;
-  
-}
-.button >a{
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.816);
-    transition:all 300ms ease-in;
-}
-.button:hover{
-    transform:scale(1.1);
-}
-.button>a:hover{
-    color:rgba(0, 0, 0, 0.816);
-    cursor: pointer;
-    transform:scale(1.1);
-} */
-@media (max-width: 768px){
-    body,html{
-        overflow-x: hidden;
-        width:100%;
-    }   
-}
