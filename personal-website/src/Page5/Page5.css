@@ -6,6 +6,7 @@
   color: white;
 }
 .footers{
+  padding-top:30px;
   display: flex;
   justify-content:space-around;
   align-items: center;
