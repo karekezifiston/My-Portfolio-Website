@@ -2,7 +2,6 @@ import React from "react";
 import './Page3.css';
 import kigali_puppies from '../assets/kigali_puppies.png';
 import ecommerce from '../assets/ecommerce3.png';
-import real_estate from '../assets/real_estate.png';
 import link from '../assets/link.png';
 import food from '../assets/food-ecommerce.png';
 
