@@ -262,12 +262,13 @@ li > a {
     text-decoration: none;
     color: black;
     position: relative;
-    color: #626262;
+    color: #ffffff;
     font-size: 18px;
     transition: all 9s ease-in-out;
 }
 .button-c {
-  background-color: rgba(157, 153, 153, 0.94);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0.94);
   border: none;
   margin-bottom: 3rem;
   border-radius: 5px;
