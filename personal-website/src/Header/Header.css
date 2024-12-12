@@ -10,7 +10,7 @@ html{
     justify-content: space-between !important;
     align-items: center;
     justify-items: center;
-    margin-top: 2rem;
+    margin-top:20px;
     margin-left:20px;
 }
 .menu-bar-toggle{
@@ -33,7 +33,6 @@ html{
     white-space:nowrap;
     cursor: default;
     font-family:Arial;
-        margin-bottom:3rem;
 }
 .nav-item{
     display: flex;
@@ -44,7 +43,9 @@ html{
 li{
     list-style-type: none;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 18px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    
 }
 li > a{
     text-decoration: none;
@@ -58,7 +59,7 @@ li .hrr{
     content: '';
     width: 0;
     height:3px;
-    background: #000000a8;
+    background: #000000;
     position: absolute;
     left:0;
     bottom: -6px;
@@ -69,9 +70,9 @@ li .hrr{
    }
 .w::after{
     content: '';
-    width:65px;
+    width:45px;
     height:3px;
-    background: #000000a8;
+    background: #000000;
     position: absolute;
     left:0;
     bottom: -6px;
@@ -86,30 +87,35 @@ a:hover{
     text-decoration-color: rgb(181,181,181);
    
 }
-.button-c{
-    background-color:rgba(0, 0, 0, 0.734);
-    border:none;
-    margin-bottom:3rem;
-    border-radius:5px;
-    padding-left:20px;
-    padding-right:20px;
-    padding-top:2px;
-    padding-bottom:2px;
-    font-size: 25px;
-  }
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.4em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #000000;
+  color: var(--secondary-color); /* Contrast for buttons */
+  cursor: pointer;
+  transition: border-color 0.25s, background-color 0.25s;
+}
+
+button:hover{
+  color: #000000 !important;
+  border-color: var(--secondary-color);
+  background-color: var(--accent-color); /* Subtle color change on hover */
+}
   .button-c>a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.816);
     transition:all 300ms ease-in;
     margin-bottom:2rem;
 }
-.button-c:hover{
-    transform:scale(1.1);
-}
 .button-c>a:hover{
     /* color:rgba(0, 0, 0, 0.816); */
     cursor: pointer;
     transform:scale(1.1);
+    color: #000000;
     
 }
 .hamburger_container, 
