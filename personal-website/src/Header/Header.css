@@ -94,25 +94,24 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #000000;
+  border:solid 1px;
+  background-color: #ffffff;
   color: var(--secondary-color); /* Contrast for buttons */
   cursor: pointer;
-  transition: border-color 0.25s, background-color 0.25s;
+  transition: background-color 0.3s ease-in-out;
 }
 
 button:hover{
-  color: #000000 !important;
-  border-color: var(--secondary-color);
-  background-color: var(--accent-color); /* Subtle color change on hover */
+  background-color: white;
+  border:solid 2px rgba(0, 0, 0, 0.64);
 }
   .button-c>a{
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.816);
+    color: rgb(0, 0, 0);
     transition:all 300ms ease-in;
     margin-bottom:2rem;
 }
 .button-c>a:hover{
-    /* color:rgba(0, 0, 0, 0.816); */
     cursor: pointer;
     transform:scale(1.1);
     color: #000000;
