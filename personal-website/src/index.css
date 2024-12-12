@@ -1,3 +1,7 @@
+:root {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif !important;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -5,12 +9,18 @@
 }
 
 body, html{
+    color: #000000;
     width: 100%;
     height: 100vh;
      overflow-x: hidden;
      scroll-behavior: smooth;
+     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     
 }
+h1 {
+    font-family: 'Playfair Display', serif; /* Elegant font for headers */
+    font-weight: 600; /* Bold weight */
+  }
 
 .logo-name{
     font-style: italic;
@@ -37,6 +47,18 @@ body, html{
     width:25px;
     height:25px;
 }
+.about_me{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .get_to_know{
+    display:none;
+      font-size:17px;
+      font-style: italic;
+  }
+
 .wait{
     height: 100vh;
     overflow: hidden;
@@ -62,6 +84,7 @@ body, html{
     border-radius:50%;
     animation:rotate 1s linear infinite;
 }
+
 @keyframes rotate{
     100%{
         transform:rotate(360deg);
@@ -71,5 +94,18 @@ body, html{
    font-size:19px;
    font-style: italic;
    color: #353535; 
+}
+@media (max-width: 773px) and (min-width:0px) {
+    .about_me{
+    font-size: 1.15rem;
+    line-height: 2.25rem;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .get_to_know{
+    display:none;
+      font-size:17px;
+      font-style: italic;
+  }
 }
 

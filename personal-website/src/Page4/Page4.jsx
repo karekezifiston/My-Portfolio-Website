@@ -23,7 +23,7 @@ return(
           </div>
           <div className="web-design">
             <img src="app-design.png"width={40}className="img-serv" alt="" />
-            <h2 className="text-border">App Design</h2>
+            <h2 className="text-border">Mobile App</h2>
             <p className="text-p">We design user-friendly, engaging layouts that enhance the user experience, ensuring your app is both functional and enjoyable to use.</p>
 
           </div>

@@ -26,13 +26,7 @@
   object-fit: cover;
   align-items: center;
 }
-.about_me{
-  font-size:35px !important;
-}
-.get_to_know{
-    font-size:20px;
-    font-style: italic;
-}
+
 
 .row{
     display: flex;
@@ -46,13 +40,14 @@
   justify-content: center;
 }
 .myexperience{
-  text-align: center;
+      text-align: center;
       margin-top:10px;
-      color: #000000;
+      font-size: var(--nextui-font-size-small);
+      color:rgba(0, 0, 0, 0.623);
       width:70vw;
-      font-size:20px;
       padding-bottom:5rem;
-      font-style: italic;
+      font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+      /* font-style: italic; */
 }
 .does{
   display: flex;
