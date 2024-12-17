@@ -54,7 +54,7 @@ const Footer = () => {
       <div className='third-way'>
           <a href="mailto:karekezifiston30@gmail.com"><img src={email}className='short-icon' alt="" />karekezifiston30@gmail.com</a>
           <a href="tel:+250780377645"><img className='short-icon' src={call}  alt="" /> +250 780 377 645</a>
-        </div>
+      </div>
       </div>
       </div>
       <div className='talk'>
@@ -69,6 +69,10 @@ const Footer = () => {
          <button type="submit" className="submit">Send <img src={send}width={20} alt="" /></button>
          </form>
          </div>
+         <div className='third-way onshort'>
+          <a href="mailto:karekezifiston30@gmail.com"><img src={email}className='short-icon' alt="" />karekezifiston30@gmail.com</a>
+          <a href="tel:+250780377645"><img className='short-icon' src={call}  alt="" /> +250 780 377 645</a>
+      </div>
       </div>
         
       
