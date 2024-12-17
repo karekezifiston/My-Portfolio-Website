@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
         <div className='right-footer'>
       <div className='third-way'>
-          <a href="https://mail.google.com/mail/karekezifiston@gmail.com"><img src={email}className='short-icon' alt="" />karekezifiston30@gmail.com</a>
+          <a href="mailto:karekezifiston30@gmail.com"><img src={email}className='short-icon' alt="" />karekezifiston30@gmail.com</a>
           <a href=""><img className='short-icon' src={call}  alt="" /> +250 780 377 645</a>
         </div>
       </div>
