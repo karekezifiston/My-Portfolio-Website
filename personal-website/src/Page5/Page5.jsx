@@ -53,7 +53,7 @@ const Footer = () => {
         <div className='right-footer'>
       <div className='third-way'>
           <a href="mailto:karekezifiston30@gmail.com"><img src={email}className='short-icon' alt="" />karekezifiston30@gmail.com</a>
-          <a href=""><img className='short-icon' src={call}  alt="" /> +250 780 377 645</a>
+          <a href="tel:+250780377645"><img className='short-icon' src={call}  alt="" /> +250 780 377 645</a>
         </div>
       </div>
       </div>
