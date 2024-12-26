@@ -21,7 +21,7 @@ function Page3() {
           <div className="all-inform">
             <div className="name-link">
               <h4>Kigali Puppies</h4>
-              <a href='' className="tooltip-container">
+              <a href='' className="tooltip-container" target="_blank">
               <img src={link} width={20} alt=""className="img-link" />
               <span className="tooltip-text">Link</span>
               </a>
@@ -35,7 +35,7 @@ function Page3() {
           <div className="all-inform">
             <div className="name-link">
             <h4>Food Delivery</h4>
-              <a href='https://food-eco-frontend.onrender.com' className="tooltip-container">
+              <a href='https://food-eco-frontend.onrender.com'target="_blank" className="tooltip-container">
               <img src={link} width={20} alt=""className="img-link" />
               <span className="tooltip-text">Link</span>
               </a>
@@ -50,7 +50,7 @@ function Page3() {
           <div className="all-inform1">
             <div className="name-link">
               <h4>E-Commerce</h4>
-              <a href='https://e-commerce-web-r41q.onrender.com' className="tooltip-container">
+              <a href='https://e-commerce-web-r41q.onrender.com'target="_blank" className="tooltip-container">
               <img src={link} width={20} alt=""className="img-link" />
               <span className="tooltip-text">Link</span>
               </a>
@@ -65,7 +65,7 @@ function Page3() {
           <div className="all-inform1">
             <div className="name-link">
               <h4>The Gospel Hub</h4>
-              <a href='' className="tooltip-container">
+              <a href='' className="tooltip-container"target="_blank">
               <img src={link} width={20} alt=""className="img-link" />
               <span className="tooltip-text">Link</span>
               </a>
