@@ -18,8 +18,8 @@ body, html{
     
 }
 h1 {
-    font-family: 'Playfair Display', serif; /* Elegant font for headers */
-    font-weight: 600; /* Bold weight */
+    font-family: 'Playfair Display', serif; 
+    font-weight: 600;
   }
 
 .logo-name{
