@@ -299,6 +299,8 @@ a .icon2{
     }
     .button_calor1{
         font-size:13px;
+        display: block; /* Ensure it's visible */
+        pointer-events: auto; /* Ensure it's clickable */
     }
     .body_text{
         margin-right:2rem;
