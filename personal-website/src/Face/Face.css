@@ -283,6 +283,8 @@ a .icon2{
         color: rgba(60, 60, 60, 0.878);
     }
     .button>button{
+        margin-left:1rem;
+        font-size:12px;
         margin-top:6px;
         justify-content: center;
         align-items: center;
@@ -293,14 +295,12 @@ a .icon2{
         border:none 1px;
         background:black;
         color: rgb(255, 255, 255);
-        height:40px;
-        width:150px;
+        height:35px;
+        width:120px;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;       
     }
     .button_calor1{
         font-size:13px;
-        display: block; /* Ensure it's visible */
-        pointer-events: auto; /* Ensure it's clickable */
     }
     .body_text{
         margin-right:2rem;
