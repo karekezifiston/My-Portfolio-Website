@@ -12,10 +12,7 @@ const Face = () => {
         <h3 className="full">Full stack Developer</h3>
         <div className="button">
        <button className="button_calor1">
-       <a 
-              href="/Fiston_Resume.pdf" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+       <a onClick={() => window.open('/Fiston_Resume.pdf', '_blank')} 
               className="button_calor1"
             >
               View Resume
