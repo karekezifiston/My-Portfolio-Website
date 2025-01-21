@@ -1,7 +1,7 @@
 .footer{
   margin-top:5rem;
   width:100vw;
-  height:80vh;
+  height:100vh;
   background-color: black;
   color: white;
 }
@@ -124,7 +124,7 @@ form .submit:hover{
   gap:10px;
   align-items: center;
   text-decoration:none;
-  color: #2c2b2b;
+  color: #828080;
   /* font-size:13px; */
 }
 .third-way>a>img{
