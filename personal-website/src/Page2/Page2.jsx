@@ -8,6 +8,7 @@ import personality from '../assets/personality.png';
 import experience from '../assets/experience.png';
 import education from '../assets/education.jpg';
 import react from '../assets/react.png';
+import next from '../assets/next.png';
 import node_js from '../assets/node js.png';
 import javascript from '../assets/javascript.png';
 import tailwind from '../assets/tailwind-css.png';
@@ -73,6 +74,10 @@ const Page2 = () => {
            <h1>React Js</h1>
         </div>
          <div className='tool-name'>
+          <img src={next} className='image' alt="" />
+           <h1>NEXT Js</h1>
+        </div>
+         <div className='tool-name'>
           <img src={node_js} className='image'  alt="" />
            <h1>Node Js</h1>
         </div>
@@ -91,10 +96,6 @@ const Page2 = () => {
         <div className='tool-name'>
           <img src={express_js} className='image' alt="" />
            <h1>Express Js</h1>
-        </div>
-         <div className='tool-name'>
-          <img src={anti_design} className='image' alt="" />
-           <h1>Ant Design</h1>
         </div>
          <div className='tool-name'>
           <img src={git_hub} className='image' alt="" />
