@@ -21,7 +21,7 @@ function Page3() {
           <div className="all-inform">
             <div className="name-link">
               <h4>Kigali Puppies</h4>
-              <a href='' className="tooltip-container" target="_blank"rel="noopener noreferrer">
+              <a href='https://kigalipuppies.com' className="tooltip-container" target="_blank"rel="noopener noreferrer">
               <img src={link} width={20} alt=""className="img-link" />
               <span className="tooltip-text">Link</span>
               </a>
