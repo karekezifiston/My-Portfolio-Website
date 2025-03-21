@@ -3,6 +3,14 @@
     flex-direction: column;
     padding-bottom:7rem;
 }
+.profile-img {
+    transition: filter 0.3s ease;
+  }
+  
+  .profile-img.blurred {
+    filter: blur(8px);
+  }
+  
 .body_element{
     display: flex;
     align-items: center;
