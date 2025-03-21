@@ -28,6 +28,14 @@
   width:340px;
   
 }
+.project-img {
+  transition: filter 0.5s ease-out;
+}
+
+.blurred {
+  filter: blur(8px);
+}
+
 .project-img{
   border-top-left-radius: 10px; 
   border-top-right-radius: 10px;
