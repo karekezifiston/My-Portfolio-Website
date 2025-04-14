@@ -28,7 +28,7 @@ const Face = () => {
         <div className="brd">
           <div className="img">
             <img
-              src="fis.PNG"
+              src="test.jpg"
               alt="Fiston Karekezi"
               className={`profile-img ${!imageLoaded ? "blurred" : ""}`}
               onLoad={handleImageLoad} // Trigger when image is loaded
