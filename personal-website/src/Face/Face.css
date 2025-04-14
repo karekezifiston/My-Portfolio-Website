@@ -5,7 +5,6 @@
 }
 .profile-img {
     transition: filter 0.3s ease;
-    opacity: 1;
   }
   
   .profile-img.blurred {
@@ -107,33 +106,10 @@
     margin-left:10px;
     background-color:rgba(0, 0, 0, 0.853);
     color: white;
-    border-radius: none;    
+    border-radius: none;
+    
+    
 }
-.image-loader-placeholder {
-    width: 100%;
-    max-width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    background: linear-gradient(
-      90deg,
-      #f0f0f0 0px,
-      #e0e0e0 40px,
-      #f0f0f0 80px
-    );
-    background-size: 600px;
-    background-repeat: no-repeat;
-    animation: shimmer 1.5s infinite linear;
-  }
-  
-  @keyframes shimmer {
-    0% {
-      background-position: -600px 0;
-    }
-    100% {
-      background-position: 600px 0;
-    }
-  }
-  
 
 .down{
   display: flex;
