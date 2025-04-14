@@ -13,6 +13,9 @@ html{
     margin-top:20px;
     margin-left:20px;
 }
+.kg{
+  text-decoration:none;
+}
 .menu-bar-toggle{
   display:none;
 }

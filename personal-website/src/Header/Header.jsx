@@ -44,7 +44,7 @@ const Header = () => {
         </div>
         <div className="h-container">
          
-        <h3 className="nav_logo"><a href=""></a><img src={fiston}width={130} alt="" /></h3>
+        <h3 className="nav_logo"><a href="#home" className="kg"><img src={fiston}width={130} alt="" /></a></h3>
   
           
         <div className="menu">
