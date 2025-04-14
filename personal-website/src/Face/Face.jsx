@@ -4,7 +4,6 @@ import './Face.css';
 const Face = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
 
-  // Handler to remove the blur effect when the image is loaded
   const handleImageLoad = () => {
     setImageLoaded(true);
   };
@@ -25,16 +24,20 @@ const Face = () => {
             </button>
           </div>
         </div>
+
         <div className="brd">
           <div className="img">
+            {!imageLoaded && <div className="image-loader-placeholder"></div>}
             <img
               src="test.jpg"
               alt="Fiston Karekezi"
               className={`profile-img ${!imageLoaded ? "blurred" : ""}`}
-              onLoad={handleImageLoad} // Trigger when image is loaded
+              onLoad={handleImageLoad}
+              style={{ display: imageLoaded ? 'block' : 'none' }}
             />
           </div>
         </div>
+
         <div className="body_text h1">
           <h4 className="hello">Hello, I'am</h4>
           <h4 className="fiston">Fiston Karekezi</h4>
@@ -60,6 +63,7 @@ const Face = () => {
           </div>
         </div>
       </div>
+
       <div className="down">
         <div className="socials_container">
           <p className="follow">Follow me</p>
