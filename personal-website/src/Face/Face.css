@@ -4,15 +4,12 @@
     padding-bottom:7rem;
 }
 .profile-img {
-    width: 100%;
-    max-width: 350px;
     transition: filter 0.3s ease;
     opacity: 1;
   }
   
   .profile-img.blurred {
-    filter: blur(10px);
-    opacity: 0;
+    filter: blur(8px);
   }
   
 .body_element{
