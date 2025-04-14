@@ -27,6 +27,9 @@ html{
   justify-content: center;
   margin-right:4rem;
 }
+.nav_log>img{
+  width:20px;
+}
 .nav_logo{
     font-size:30px;
     color: rgb(0, 0, 0);
