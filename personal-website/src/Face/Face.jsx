@@ -47,7 +47,7 @@ const Face = () => {
               View Resume
             </button>
           </div>
-          <div className="socials_container">
+          <div className="socials_containe">
             <a href="https://www.linkedin.com/in/fiston-karekezi-50299726b/">
               <i className="fab fa-linkedin mob_github_ico"></i>
             </a>
