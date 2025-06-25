@@ -5,6 +5,7 @@ import ecommerce from '../assets/ecommerce3.png';
 import link from '../assets/link1.png';
 import food from '../assets/food-ecommerce.png';
 import gospel from '../assets/gospel.png';
+import report from '../assets/report2.png';
 
 function Page3() {
   const [imageLoaded, setImageLoaded] = useState({
@@ -41,6 +42,24 @@ function Page3() {
               </a>
             </div>
             <p className="pr">An online store dedicated to helping you find adorable and loving puppies, perfect for bringing joy to your life.</p>
+          </div>
+        </div>
+        <div className="div-1">
+          <img
+            src={report}
+            className={`project-img ${!imageLoaded.report ? "blurred" : ""}`}
+            alt="Kigali Puppies"
+            onLoad={() => handleImageLoad("report")}
+          />
+          <div className="all-inform">
+            <div className="name-link">
+              <h4>Ijisho(Reporting crimes)</h4>
+              <a href='https://ijisho-frontend.onrender.com' className="tooltip-container" target="_blank" rel="noopener noreferrer">
+                <img src={link} width={20} alt="Link" className="img-link" />
+                <span className="tooltip-text">Link</span>
+              </a>
+            </div>
+            <p className="pr">An online platform where You can easily report crimes, and the police can track and manage all reported cases across the country.</p>
           </div>
         </div>
 
