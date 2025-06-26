@@ -1,16 +1,46 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 .footer{
   margin-top:5rem;
-  width:100vw;
-  height:100vh;
-  background-color: black;
+  height:70vh;
+  background-color: rgb(255, 255, 255);
   color: white;
 }
-.footers{
-  padding-top:30px;
-  display: flex;
-  justify-content:space-around;
-  align-items: center;
+.footer .titlee {
+    text-align: center;
+    color: rgb(0, 0, 0); /* or another visible color */
+    margin-bottom: 2rem;
+    line-height: 2.25rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:1em !important;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
+
+.footers {
+  margin: 0 auto;
+  max-width: 1200px; /* Prevent it from stretching too wide */
+  width: 100%;
+  padding: 30px;
+  padding-bottom:10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: black;
+  border-radius:20px;
+}
+
 .left-footer{
   display: flex;
   flex-direction: column;
@@ -41,7 +71,7 @@
 .let{
   color:rgba(255, 255, 255, 0.401);
   font-size:30px;
-  font-style: italic;
+      font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 .first> #userName,#userEmail{
   width:20vw;
@@ -76,36 +106,38 @@ textarea::placeholder{
   font-size:15px;
   font-weight:bold;
 }
-textarea{
+textarea {
   background-color: black;
-  outline:none;
-  width:47vw;
-  outline:none;
-  border-bottom:solid 0.1px #ffffff8a;
-  border-left:none;
-  border-right:none;
-  border-top:none;
+  outline: none;
+  width: 47vw;
+  border: none;
+  border-bottom: solid 0.1px #ffffff8a;
   color: white;
-  height:15vh;
-  padding:10px;
+  height: 6vh;
+  padding: 10px;
+  resize: none;
+  overflow: hidden;  /* <-- hide scrollbars */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+/* Chrome, Safari */
+textarea::-webkit-scrollbar {
+  display: none;
 }
 form .submit{
-  width:89px;
-  display: flex;
-  gap:10px;
-  align-items: center;
-  padding:4px 20px;
-  font-size:17px;
-  font-family:sans-seri;
-  cursor: pointer;
-  margin-left:15px;
-  background-color: rgba(255, 255, 255, 0.644);
-  border: none;
-  border-radius:5px;
-  color:rgba(0, 0, 0, 0.821);
-  margin-top:10px;
-  font-style: italic;
-  transition: ease-in-out 0.3s;
+    margin-top: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 120px;
+    padding: 9px;
+    cursor: pointer;
+    font-size: 11px;
+    color: #fff;
+    border-color: #c9c9c9;
+    background-color: #7878782d;
+    transition: background-color .3s ease-in-out, transform .3s ease;
 }
 form .submit:hover{
   background-color: rgb(255, 255, 255);
@@ -115,9 +147,9 @@ form .submit:hover{
   display:none !important;
 }
 .third-way{
-  font-style: italic;
   display: flex;
   flex-direction: column;
+  gap:5px;
 }
 .third-way>a{
   display: flex;
@@ -149,6 +181,18 @@ form .submit:hover{
   text-wrap:nowrap;
   gap:4px;
 }
+.last-foot{
+  color:black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.last-foot p{
+  font-size:14px;
+  font-weight: 600;
+  margin-top:1em;
+  padding-bottom:1em;
+}
 @media (min-width:0px) and (max-width:755px){
   .footers {
     display: flex;
@@ -159,7 +203,6 @@ form .submit:hover{
 .let {
   color: rgba(255, 255, 255, 0.401);
   font-size:20px;
-  font-style: italic;
 }
 .left-footer {
   display: flex;
@@ -206,5 +249,8 @@ textarea {
   color: white;
   height: 15vh;
   padding: 10px;
+}
+.footers{
+  padding-bottom:10px;
 }
 }
