@@ -6,7 +6,7 @@ const Face = () => {
     <div className='face'>
       <div className='div1'>
         <h1>Hello,<br /> I'm  <b>Fiston KAREKEZI</b></h1>
-        <p>A Fontend Developer Driven by purpose, powered by code — building the future, one line at a time. Creating solutions that matter and bringing ideas to life with every project.</p>
+        <p>A Fontend Developer Driven by purpose, powered by codes. building the future, one line at a time. Creating solutions that matter and bringing ideas to life with every project.</p>
       </div>
       <div className='last-d'>
         <button
