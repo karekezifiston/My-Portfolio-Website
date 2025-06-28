@@ -6,6 +6,7 @@ import link from '../assets/link1.png';
 import food from '../assets/food-ecommerce.png';
 import gospel from '../assets/gospel.png';
 import report from '../assets/report2.png';
+import movie from '../assets/movies.png';
 
 function Page3() {
   const [imageLoaded, setImageLoaded] = useState({
@@ -44,7 +45,28 @@ function Page3() {
             <p className="pr">An online store dedicated to helping you find adorable and loving puppies, perfect for bringing joy to your life.</p>
           </div>
         </div>
+
+        {/* <div className="div-3">
+          <img
+            src={movie}
+            className={`project-img ${!imageLoaded.movie ? "blurred" : ""}`}
+            alt="The Gospel Hub"
+            onLoad={() => handleImageLoad("movie")}
+          />
+          <div className="all-inform1">
+            <div className="name-link">
+              <h4>🍿 Movie Booking</h4>
+              <a href='https://gospel-web.onrender.com/' className="tooltip-container" target="_blank" rel="noopener noreferrer">
+                <img src={link} width={20} alt="Link" className="img-link" />
+                <span className="tooltip-text">Link</span>
+              </a>
+            </div>
+            <p className="pr">A full-stack movie booking website to book your favorite movies, select seats, and catch the latest hit films in theaters near you.</p>
+          </div>
+        </div> */}
+
         <div className="div-1">
+          
           <img
             src={report}
             className={`project-img ${!imageLoaded.report ? "blurred" : ""}`}
@@ -100,6 +122,8 @@ function Page3() {
             <p className="pr">An online clothing store designed to make shopping easy whenever you're in Kigali, providing a convenient way to buy clothes.</p>
           </div>
         </div>
+
+
 
         <div className="div-3">
           <img

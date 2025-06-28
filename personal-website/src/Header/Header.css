@@ -12,6 +12,7 @@ html{
     justify-items: center;
     margin-top:20px;
     margin-left:20px;
+    width:100%;
 }
 .kg{
   text-decoration:none;
@@ -144,6 +145,8 @@ button:hover{
   height:8vh;
   z-index:1;
   padding-bottom:2rem;
+  margin-left:0;
+  padding-left:10px;
 }
 .nav_logo {
   padding-top:2rem;
