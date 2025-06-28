@@ -24,7 +24,7 @@ return(
           <div className="web-design">
             <img src="app-design.png"width={40}className="img-serv" alt="" />
             <h2 className="text-border">Mobile App</h2>
-            <p className="text-p">We design user-friendly, engaging layouts that enhance the user experience, ensuring your app is both functional and enjoyable to use.</p>
+            <p className="text-p">I'm currently learning how to design and build apps for iOS and Android.  excited to start creating soon!.</p>
 
           </div>
       </div>
