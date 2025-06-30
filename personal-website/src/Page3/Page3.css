@@ -80,6 +80,24 @@
 .name-link:hover{
   color:rgba(0, 0, 0, 0.862);
 }
+.stamp-title {
+  display: inline-block;
+  color: red;
+  border: 2px solid red;
+  padding: 8px 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: rgba(255, 0, 0, 0.05); /* subtle background */
+  box-shadow: 0 0 0 2px red inset;
+  font-family: 'Courier New', Courier, monospace;
+}
+.stamp-title span {
+  color: darkred;
+  font-weight: normal;
+}
 .tooltip-container {
   position: relative;
   display: inline-block;

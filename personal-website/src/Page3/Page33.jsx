@@ -46,24 +46,6 @@ function Page3() {
           </div>
         </div>
 
-        {/* <div className="div-3">
-          <img
-            src={movie}
-            className={`project-img ${!imageLoaded.movie ? "blurred" : ""}`}
-            alt="The Gospel Hub"
-            onLoad={() => handleImageLoad("movie")}
-          />
-          <div className="all-inform1">
-            <div className="name-link">
-              <h4>🍿 Movie Booking</h4>
-              <a href='https://gospel-web.onrender.com/' className="tooltip-container" target="_blank" rel="noopener noreferrer">
-                <img src={link} width={20} alt="Link" className="img-link" />
-                <span className="tooltip-text">Link</span>
-              </a>
-            </div>
-            <p className="pr">A full-stack movie booking website to book your favorite movies, select seats, and catch the latest hit films in theaters near you.</p>
-          </div>
-        </div> */}
 
         <div className="div-1">
           
@@ -123,7 +105,24 @@ function Page3() {
           </div>
         </div>
 
-
+            <div className="div-3">
+          <img
+            src={movie}
+            className={`project-img ${!imageLoaded.movie ? "blurred" : ""}`}
+            alt="The Gospel Hub"
+            onLoad={() => handleImageLoad("movie")}
+          />
+          <div className="all-inform1">
+            <div className="name-link">
+              <h4>🍿 Movie Booking <span className="stamp-title">In progress</span></h4>
+              <a href='https://movie-booking-7ivt.onrender.com' className="tooltip-container" target="_blank" rel="noopener noreferrer">
+                <img src={link} width={20} alt="Link" className="img-link" />
+                <span className="tooltip-text">Link</span>
+              </a>
+            </div>
+            <p className="pr">A movie booking website where you can book your favorite movies, select seats, and catch the latest hit films in theaters near you.</p>
+          </div>
+        </div> 
 
         <div className="div-3">
           <img
