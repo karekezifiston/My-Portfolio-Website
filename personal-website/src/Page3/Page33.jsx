@@ -120,7 +120,7 @@ function Page3() {
                 <span className="tooltip-text">Link</span>
               </a>
             </div>
-            <p className="pr">A movie booking website where you can book your favorite movies, select seats, and catch the latest hit films in theaters near you.</p>
+            <p className="pr">A full-stack movie booking website to book your favorite movies, select seats, and catch the latest hit films in theaters near you.</p>
           </div>
         </div> 
 
