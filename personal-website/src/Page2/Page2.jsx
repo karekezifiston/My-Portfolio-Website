@@ -58,7 +58,7 @@ const Page2 = () => {
           <div className='div' >
           <img src={experience} alt="" />
           <h1>Experience</h1>
-          <p>3+ years Software <br />Development</p>
+          <p>3+ years in Software <br />Development</p>
           </div>
 
            <div className='div'>
