@@ -87,7 +87,7 @@ const Page2 = () => {
         </div>
          <div className='tool-name'>
           <img src={tailwind} className='image' alt="" />
-           <h1>Taiwind Css</h1>
+           <h1>Tailwind Css</h1>
         </div>
          <div className='tool-name'>
           <img src={mongodb} className='image' alt="" />
