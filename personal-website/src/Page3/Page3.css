@@ -135,7 +135,7 @@
 }
 .pr{
   width:320px;
-  color:rgba(0, 0, 0, 0.623);
+  color: #4b5563;
   font-size: var(--nextui-font-size-small);
 }
 @media (max-width: 1180px) and (min-width:773px){
