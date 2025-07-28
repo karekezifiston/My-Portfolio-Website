@@ -13,6 +13,7 @@ html{
     margin-top:20px;
     margin-left:20px;
     width:100%;
+    background-color: #000000;
 }
 .kg{
   text-decoration:none;
@@ -121,7 +122,6 @@ li .hrr{
 } 
 @media (max-width: 1082px) and (min-width:0px){
   body,html{
-    overflow-x: hidden;
     width:100vw;
 }
 .h-wrapper{
