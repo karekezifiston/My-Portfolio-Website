@@ -18,6 +18,9 @@ body, html{
      font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     
 }
+p{
+    font-weight: 350 !important;
+}
 h1 {
     font-family: 'Playfair Display', serif; 
     font-weight: 600;
