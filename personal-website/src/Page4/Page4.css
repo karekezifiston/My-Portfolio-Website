@@ -28,7 +28,7 @@
     padding-left:2rem;
     border-radius:10px;
     border:solid 1px;
-    border-color: rgba(0, 0, 0, 0.219);
+    border-color: rgba(181, 181, 181, 0.203);
     cursor:pointer;
     background-color:bl;
 
@@ -37,15 +37,16 @@
     margin-left:2rem;
     margin-bottom:1rem;
     border:solid;
+    background-color: white;
 }
 .text-border{
     padding-bottom:5px;
     padding-bottom: 5px;
-    font-size: 17px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #b1b1b1;
 }
 .text-p{
-    color: #4b5563;
+    color: #b1b1b1;
     font-size: var(--nextui-font-size-small);
 }
 .learn-link{
@@ -54,15 +55,6 @@
     margin-top:20px;
     display: inline-block; 
 
-}.web-design:hover{
-    /* background: #6d6d6d32; */
-    transform:translateY(-20px);
-    color: black;
-    border-color: rgb(0, 0, 0);
-    
-}
-.arrow_icon4{
-    margin-left:60rem;
 }
 @media (max-width:1244px) and (min-width:881px){
     .three-container{

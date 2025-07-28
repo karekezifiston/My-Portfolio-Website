@@ -27,7 +27,7 @@
 .div1 p {
   max-width: 700px;
   margin-top: 1rem;
-  color: #4b5563;
+  color: #b1b1b1;
   line-height: 1.6;
 }
 
@@ -42,18 +42,17 @@
 .last-d button {
   margin-top: 1.5rem;
   padding: 0.75rem 2rem;
-  background-color: #000000;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   border: none;
   border-radius: 0.5rem;
   font-size: 1rem;
-  font-weight: 600;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .last-d button:hover {
-  background-color: #000000b7;
+  background-color: #ffffffb7;
   transform: translateY(-2px);
 }
 
@@ -66,13 +65,13 @@
 }
 
 .socials_container a {
-  color: #6b7280;
+  color: #b1b1b1;
   font-size: 1.5rem;
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .socials_container a:hover {
-  color: #000000;
+  color: #ffffff;
   transform: translateY(-4px);
 }
 

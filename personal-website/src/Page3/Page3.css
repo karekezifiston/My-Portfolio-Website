@@ -23,8 +23,9 @@
   align-items: center;
   justify-content: center;
   gap:20px;
-  border:solid 1px rgba(192, 192, 192, 0.595);
+  border:solid 1px rgba(255, 255, 255, 0);
   border-radius:20px;
+  background-color:rgba(64, 64, 64, 0.308);
   width:340px;
   
 }
@@ -75,7 +76,7 @@
 }
 .name-link{
   text-decoration:none;
-  color:black;
+  color:rgb(204, 204, 204);
 }
 .name-link:hover{
   color:rgba(0, 0, 0, 0.862);
@@ -130,12 +131,11 @@
   visibility: visible; /* Make it visible */
 }
 .name-link h4{
-  font-size:17px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:15px;
 }
 .pr{
   width:320px;
-  color: #4b5563;
+  color: #b1b1b1;
   font-size: var(--nextui-font-size-small);
 }
 @media (max-width: 1180px) and (min-width:773px){
