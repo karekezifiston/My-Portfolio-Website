@@ -114,7 +114,7 @@ function Page3() {
           />
           <div className="all-inform1">
             <div className="name-link">
-              <h4>🍿 Movie Booking <span className="stamp-title">In progress</span></h4>
+              <h4>🍿 Movie Booking <span className="stamp-title"></span></h4>
               <a href='https://movie-booking-7ivt.onrender.com' className="tooltip-container" target="_blank" rel="noopener noreferrer">
                 <img src={link} width={20} alt="Link" className="img-link" />
                 <span className="tooltip-text">Link</span>
