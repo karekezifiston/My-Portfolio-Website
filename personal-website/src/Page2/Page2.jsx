@@ -64,7 +64,7 @@ const Page2 = () => {
            <div className='div'>
            <img src={education} alt="" />
             <h1>Certificates</h1>
-            <p>Working on Front-End Web <b>Pro-Development Certificate</b> now</p>
+            <p>Currently completing Front-End Web Pro-Development Certificate<b> ALX </b></p>
             </div>
        </div>
        <div className='tools slider-container'>
