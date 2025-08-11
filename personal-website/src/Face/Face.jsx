@@ -10,7 +10,7 @@ const Face = () => {
       </div>
       <div className='last-d'>
         <button
-        onClick={() => window.open('/Fiston_Resume.pdf', '_blank')}
+        onClick={() => window.open('/Cv_Fiston.pdf', '_blank')}
         >View Resume</button>
                <div className="socials_container">
   
