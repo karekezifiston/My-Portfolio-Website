@@ -27,7 +27,8 @@
 .div1 p {
   max-width: 700px;
   margin-top: 1rem;
-  color: #b1b1b1;
+  font-size:16px;
+  color: #b1b1b1e0;
   line-height: 1.6;
 }
 

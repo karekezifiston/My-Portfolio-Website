@@ -58,7 +58,7 @@ li{
 }
 li > a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.829);
     position: relative;
 }
 li .hrr{
@@ -68,7 +68,7 @@ li .hrr{
     content: '';
     width: 0;
     height:3px;
-    background: #eaeaea;
+    background: #eaeaeab9;
     position: absolute;
     left:0;
     bottom: -6px;
@@ -140,7 +140,7 @@ li .hrr{
   margin-top:0;
   position: fixed;
   /* background-color: rgb(56, 43, 43); */
-  width:100%;
+  width:95.5%;
   height:8vh;
   z-index:1;
   padding-bottom:2rem;

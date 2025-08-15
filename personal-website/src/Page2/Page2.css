@@ -47,9 +47,9 @@
 .myexperience {
   text-align: center;
   margin-top: 10px;
-  font-size: var(--nextui-font-size-small);
-  color: #b1b1b1;
-  width: 80vw;
+  font-size: 16px;
+  color: #b1b1b1bd;
+  width: 50vw;
   padding-bottom: 5rem;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   /* font-style: italic; */
@@ -202,7 +202,9 @@
     gap: 2vw;
     cursor: pointer;
   }
-
+  .myexperience{
+    width:70vw;
+  }
   .div {
     gap: 5px;
     display: flex;
@@ -243,7 +245,9 @@
     gap: 2vw;
     cursor: pointer;
   }
-
+  .myexperience{
+    width:80vw;
+  }
   .div {
     gap: 5px;
     display: flex;
@@ -275,7 +279,9 @@
     justify-content: space-between;
     cursor: pointer;
   }
-
+  .myexperience{
+    width:90vw;
+  }
   .div {
     gap: 5px;
     display: flex;
