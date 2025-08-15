@@ -181,14 +181,13 @@ form .submit:hover{
   gap:4px;
 }
 .last-foot{
-  color:black;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .last-foot p{
-  font-size:14px;
-  font-weight: 600;
+  color: rgb(122, 122, 122);
+  font-weight:600 !important;
   margin-top:1em;
   padding-bottom:1em;
 }
