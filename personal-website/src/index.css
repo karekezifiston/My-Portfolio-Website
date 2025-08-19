@@ -57,6 +57,7 @@ h1 {
     line-height: 2.25rem;
     text-transform: uppercase;
     font-weight: 700;
+    text-align: center !important;
   }
   .get_to_know{
     display:none;
