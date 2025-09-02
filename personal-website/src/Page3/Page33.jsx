@@ -27,7 +27,7 @@ function Page3() {
         <p className="get_to_know">Explore</p>
       </div>
       <div className="divs">
-        <div className="div-1">
+        {/* <div className="div-1">
           <img
             src={kigali_puppies}
             className={`project-img ${!imageLoaded.kigali_puppies ? "blurred" : ""}`}
@@ -44,7 +44,7 @@ function Page3() {
             </div>
             <p className="pr">An online store dedicated to helping you find adorable and loving puppies, perfect for bringing joy to your life.</p>
           </div>
-        </div>
+        </div> */}
 
 
         <div className="div-1">
