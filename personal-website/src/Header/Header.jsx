@@ -38,7 +38,8 @@ const Header = () => {
             </li>
             <button className='button-c'>
                 <a href="#contact"onClick={handleLinkClick} className="">Contact</a>
-                </button>
+          </button>
+          
   
         </ul>
         </div>
